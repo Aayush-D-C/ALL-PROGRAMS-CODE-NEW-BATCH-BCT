@@ -4,7 +4,7 @@
     2. opening files using open()
 */
 
-//1. Opening files using constructor
+// 1. Opening files using constructor
 #include <iostream>
 #include <fstream>
 using namespace std;
