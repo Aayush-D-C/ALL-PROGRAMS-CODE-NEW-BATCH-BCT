@@ -3,6 +3,8 @@
     1. Opening files using constructor
     2. opening files using open()
 */
+
+//1. Opening files using constructor
 #include <iostream>
 #include <fstream>
 using namespace std;
@@ -14,7 +16,7 @@ int main()
     string name;
     int age;
 
-    // Opening a file name example in output fstream by passing file as an constructor for the class fstream
+    // Opening a file name example in output fstream by passing file as an constructor for the class ofstream/fstream(base class)
     ofstream outf("example");
 
     cout << "Enter your name:";
