@@ -10,12 +10,12 @@ class test{
         cout<<count<<endl;
         count++;
     }
-
 };
 
 int test :: count;
 
 int main() {
+    
     
     test t[10];
     int i = 0;
